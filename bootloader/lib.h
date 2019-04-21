@@ -3,5 +3,6 @@
 
 int putc(unsigned char c);    /* １文字送信 */
 int puts(unsigned char *str); /* 文字列送信 */
+int putxval(unsigned long value, int column); /* 数値の16進表示 */
 
 #endif
