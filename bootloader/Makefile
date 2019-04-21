@@ -15,7 +15,7 @@ STRIP   = $(BINDIR)/$(ADDNAME)strip
 
 # FreeBSD-4.x:/dev/cuaaX, FreeBSD-6.x:/dev/cuadX, FreeBSD(USB):/dev/cuaUx
 # Linux:/dev/ttySx, Linux(USB):/dev/ttyUSBx, Windows:comX
-H8WRITE_SERDEV = /dev/cuad0
+H8WRITE_SERDEV := /dev/ttyUSB0
 
 #Q := @
 SRC_DIR := bootloader
