@@ -31,6 +31,7 @@ LOCAL_SRC_FILES += main.c
 LOCAL_SRC_FILES += lib.c
 LOCAL_SRC_FILES += serial.c
 LOCAL_SRC_FILES += xmodem.c
+LOCAL_SRC_FILES += elf.c
 LOCAL_OBJ_FILES := $(subst .c,.o,$(LOCAL_SRC_FILES))
 LOCAL_OBJ_FILES := $(subst .s,.o,$(LOCAL_OBJ_FILES))
 
