@@ -1,3 +1,6 @@
 all:
-include tools/Makefile
-include bootloader/Makefile
+MAKEFILES :=
+MAKEFILES += tools/Makefile
+MAKEFILES += bootloader/Makefile
+MAKEFILES += os/Makefile
+include build/Makefile

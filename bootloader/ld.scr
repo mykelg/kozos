@@ -40,7 +40,7 @@ SECTIONS
 
 	.data : {
 		_data_start = . ;
-		*(.data)
+		*(EXCLUDE_FILE (*vector.o) .data)
 		_edata = . ;
 	} > data AT> rom
 
