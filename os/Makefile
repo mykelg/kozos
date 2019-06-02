@@ -7,6 +7,7 @@ LOCAL_SRC_FILES += startup.s
 LOCAL_SRC_FILES += main.c
 LOCAL_SRC_FILES += lib.c
 LOCAL_SRC_FILES += serial.c
+LOCAL_SRC_FILES += interrupt.c
 
 LOCAL_SRC_DIR := os
 LOCAL_CFLAGS := -DKOZOS

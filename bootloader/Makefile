@@ -10,6 +10,8 @@ LOCAL_SRC_FILES += lib.c
 LOCAL_SRC_FILES += serial.c
 LOCAL_SRC_FILES += xmodem.c
 LOCAL_SRC_FILES += elf.c
+LOCAL_SRC_FILES += intr.S
+LOCAL_SRC_FILES += interrupt.c
 
 LOCAL_SRC_DIR := bootloader
 LOCAL_CFLAGS := -DKZLOAD
