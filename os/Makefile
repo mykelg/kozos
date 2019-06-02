@@ -8,6 +8,9 @@ LOCAL_SRC_FILES += main.c
 LOCAL_SRC_FILES += lib.c
 LOCAL_SRC_FILES += serial.c
 LOCAL_SRC_FILES += interrupt.c
+LOCAL_SRC_FILES += kozos.c
+LOCAL_SRC_FILES += syscall.c
+LOCAL_SRC_FILES += test08_1.c
 
 LOCAL_SRC_DIR := os
 LOCAL_CFLAGS := -DKOZOS
